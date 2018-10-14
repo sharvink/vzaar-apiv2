@@ -238,13 +238,13 @@ Vzaar.prototype.generateUssToken = function(videoId , minutes = 1, callback){
 
 }
 
-Vzaar.prototype.createVideo =  function( guid, callback)
+Vzaar.prototype.createVideo =  function( guid, title , description callback)
 {
 
       this.options.body = {
           'guid' : guid ,
-          'title' : "sharvin's Test video uploaded using API",
-          'description' :'This is the video description'
+          'title' : title,
+          'description' : description
       };
       this.options.json = true;
       this.options.method = 'post';
