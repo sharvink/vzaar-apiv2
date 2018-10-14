@@ -15,7 +15,7 @@ An unofficial node.js client for the vzaar API.
 
 ```javascript
 
-var Vzaar = require("vzaar");
+var Vzaar = require("vzaar-apiv2");
 var vzaarAPI = new Vzaar( authToken,clientId);
 
 ```
