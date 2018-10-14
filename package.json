@@ -1,6 +1,6 @@
 {
   "name": "vzaar-api-v2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A node.js client for the vzaar API.",
   "main": "index.js",
   "dependencies": {
