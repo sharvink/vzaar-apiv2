@@ -8,14 +8,14 @@ An unofficial node.js client for the vzaar API.
 
 ### Installation
 
-    npm install 'vzaar-apiv2'
+    npm install 'vzaar-api-v2'
 
 
 ### Usage
 
 ```javascript
 
-var Vzaar = require("vzaar-apiv2");
+var Vzaar = require("vzaar-api-v2");
 var vzaarAPI = new Vzaar( authToken,clientId);
 
 ```
